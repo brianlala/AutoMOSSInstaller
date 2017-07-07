@@ -1,0 +1,12 @@
+[Components]
+complusnetwork = on
+appsrv_console = on
+iis_common = on
+iis_inetmer = on
+iis_www = on
+IEHardenUser = OFF
+IEHardenAdmin = OFF
+
+[InternetServer]
+PathFTPRoot = "C:\Inetpub\FTProot"
+PathWWWRoot = "C:\Inetpub\WWWroot"

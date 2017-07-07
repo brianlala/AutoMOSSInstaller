@@ -1,0 +1,22 @@
+<Configuration>
+	<Package Id="sts">
+		<Setting Id="LAUNCHEDFROMSETUPSTS" Value="Yes"/>
+		<Setting Id="REBOOT" Value="ReallySuppress"/>
+		<Setting Id="SETUPTYPE" Value="CLEAN_INSTALL"/>
+	</Package>
+
+	<Package Id="spswfe">
+		<Setting Id="SETUPCALLED" Value="1"/>
+		<Setting Id="REBOOT" Value="ReallySuppress"/>
+		<Setting Id="OFFICESERVERPREMIUM" Value="1" />
+	</Package>
+
+	<ARP ARPCOMMENTS="" ARPCONTACT="" />
+    	<INSTALLLOCATION Value="%INSTALLLOCATION%" />
+	<DATADIR Value="%DATADIR%" />
+    	<Logging Type="verbose" Path="%temp%" Template="Office Server Setup(*).log"/>
+	<Display Level="basic" CompletionNotice="No" AcceptEula="Yes"/>
+	<Setting Id="SERVERROLE" Value="APPLICATION"/>
+	<Setting Id="USINGUIINSTALLMODE" Value="1"/>
+    	<PIDKEY Value="" />
+</Configuration>
